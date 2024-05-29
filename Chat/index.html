@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Agrícola</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <div class="menu">
+        <div class="logo">
+            <img src="imagens/Logo2.jpeg" alt="">
+        </div>
+        <div class="botoes">
+            <a href="/Login/index.html">Login</a>
+            <a href="/Sobre/index.html">Sobre</a>
+            <a href="/Suporte/index.html">Suporte</a>
+            <a href="/Home/index.html">Home</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="chatbox">
+            <div id="chat-messages"></div>
+            <div class="input-container">
+                <input type="text" id="user-input" placeholder="Digite sua mensagem...">
+                <button id="send-button" onclick="sendMessage()">Enviar</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

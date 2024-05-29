@@ -1,0 +1,102 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../imagens/campo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.logo img{
+    float: left;
+    width: 5%;
+    margin-left: 5%;
+}
+.botoes a{
+    float: right;
+    color: black;
+    margin: 2% 2%;
+    text-decoration: none;
+}
+
+.menu{
+    width: 100%;
+    margin: 0%;
+    display: inline-block;
+    text-align: center;
+    background-color: #F9F7DC;
+
+}
+
+.box{
+    background-color: #F9F7DC;
+    margin: 3% 10%;
+    padding: 3%;
+    border-radius: 20px;
+}
+
+.box h1{
+    color: #773e01;
+    margin: 10%;
+    font-size: 40px;
+    text-shadow: 
+        -1px -1px 0px black, 
+        -1px 1px 0px black,                    
+        1px -1px 0px black,                  
+        1px 0px 0px black;
+}
+
+.box img{
+    float: right;
+}
+
+
+.duvida{
+    background-color: #F9F7DC;
+    margin: 3% 10%;
+    padding: 3%;
+    border-radius: 20px;
+}
+
+.duv{
+    margin: 1%;
+    color: #ff8400;
+    font-size: 30px;
+}
+
+.telefone{
+    font-size: 2;
+    display: inline-block;
+    background-color: #F9F7DC;
+    margin: 3% 8% 3% 13%;
+    padding: 3% 5%;
+    border-radius: 20px;
+}
+
+.telefone a{
+    color: #F9F7DC;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color:#ff8400;
+    padding: 4px;
+    font-size: 18px;
+}
+
+.chat{
+    float: right;
+    display: inline-block;
+    background-color: #F9F7DC;
+    margin: 3% 13% 3% 8%;
+    padding: 3% 5%;
+    border-radius: 20px;
+}
+
+.chat a{
+    color: #F9F7DC;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color:#ff8400;
+    padding: 4px;
+    font-size: 18px;
+}
+

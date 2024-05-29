@@ -1,0 +1,99 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../imagens/campo.jpg);
+    background-size: cover;
+    background-position: down;
+    
+}
+
+
+.logo img{
+    float: left;
+    width: 5%;
+    margin-left: 5%;
+}
+.botoes a{
+    float: right;
+    color: black;
+    margin: 2% 2%;
+    text-decoration: none;
+}
+
+.menu{
+    width: 100%;
+    margin: 0%;
+    display: inline-block;
+    text-align: center;
+    background-color: #F9F7DC;
+
+}
+
+
+#chatbox {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1200px; 
+    margin: 10% auto 0% auto; 
+}
+
+
+#chat-messages {
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.balloon {
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.user {
+    background-color: #bee3db;
+    float: right;
+}
+
+.bot {
+    background-color: #f5f5f5;
+    float: left;
+}
+
+img {
+    width: 20px;
+    vertical-align: middle;
+}
+
+#send-button {
+    background-color: #8BC34A;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+#send-button:hover {
+    background-color: #689F38; 
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+#user-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
